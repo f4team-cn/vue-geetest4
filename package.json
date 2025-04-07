@@ -1,11 +1,12 @@
 {
   "name": "vue-geetest4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/vue-geetest4.js",
   "types": "dist/vue-geetest4.d.ts",
   "files": [
     "dist/**/*",
+    "lib/**/*",
     "/README.md",
     "/LICENSE"
   ],

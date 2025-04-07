@@ -2,6 +2,11 @@
 
 ## 简单使用
 
+### 安装
+```bash
+pnpm add vue-geetest4
+```
+
 ### 初始化
 ```typescript
 import { Geetest4, init as geetest4Init } from 'vue-geetest4';
