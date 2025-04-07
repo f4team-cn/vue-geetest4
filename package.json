@@ -1,0 +1,36 @@
+{
+  "name": "vue-geetest4",
+  "version": "1.0.1",
+  "type": "module",
+  "main": "dist/vue-geetest4.js",
+  "types": "dist/vue-geetest4.d.ts",
+  "files": [
+    "dist/**/*",
+    "/README.md",
+    "/LICENSE"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "prettier": "^3.5.3",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vue": "^3.5.13"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "geetest",
+    "geetest4"
+  ],
+  "author": "Yingyya",
+  "license": "MIT",
+  "description": "vue3 geetest4 util",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f4team-cn/vue-geetest4"
+  }
+}

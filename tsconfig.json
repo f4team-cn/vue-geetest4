@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["lib/*"]
+    }
+  },
+  "include": ["lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.vue"],
+  "exclude": ["node_modules"]
+}
